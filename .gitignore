@@ -1,0 +1,9 @@
+.Python
+bin
+include
+lib
+dump.rdb
+*.pyc
+.DS_Store
+child.log
+
