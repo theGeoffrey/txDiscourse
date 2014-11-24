@@ -2,7 +2,7 @@ from twisted.trial import unittest
 import time
 import logging
 from dc_client import DiscourseClient
-import config
+import os
 
 from twisted.internet.base import DelayedCall
 DelayedCall.debug = True
@@ -13,9 +13,9 @@ logger = logging.getLogger("TEST_DiscourseAPI")
 class TestTopic(unittest.TestCase):
 
     def setUp(self):
-        host = config.DC_HOST
-        api_key = config.DC_API_KEY
-        username = config.DC_USERNAME
+        host = os.environ.get('DC_HOST')
+        api_key = os.environ.get('DC_API_KEY')
+        username = os.environ.get('DC_USERNAME')
         self.client = DiscourseClient(host, api_key, username)
         self.topic_id = 1
 
