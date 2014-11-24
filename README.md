@@ -12,8 +12,25 @@ Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), th
  - Twisted > 14.0.0
  - nosetests == 1.3.4
 
+###Usage:
+Create a new client and give it hostname, you discourse api_key and username:
+	from tx_discourse_api import DiscourseClient
+
+	client = DiscourseClient(host, api_key, username)
+
+Create a new topic:
+	client.create_topic('title', 'text text text')
+
+Get all topics created:
+	client.topic_by('username')
+returns a list of topics in a json string.
+
+For more examples check out the test_api_calls.
+
 ##Testing:
+At the moment tests only cover topics. To run tests:
+
  1. Add a config file containing your Discourse host (e.g. http://localhost:4000), Discourse API key and username.
  2. change title names and topic ids
  3. Run:
- 	nosetests 
+	nosetests 
