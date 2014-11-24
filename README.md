@@ -1,5 +1,8 @@
 ##Description:
-Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), the event-driven network programming framework written in Python
+
+**UNDER CONSTRUCTION **
+
+Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), the event-driven network programming framework written in Python.
 
 ##Installation:
 
@@ -12,4 +15,5 @@ Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), th
 ##Testing:
  1. Add a config file containing your Discourse host (e.g. http://localhost:4000), Discourse API key and username.
  2. change title names and topic ids
- 3. 	nosetests 
+ 3. Run:
+ 	nosetests 
