@@ -6,4 +6,4 @@ dump.rdb
 *.pyc
 .DS_Store
 child.log
-
+config.py
