@@ -14,15 +14,19 @@ Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), th
 
 ###Usage:
 Create a new client and give it hostname, you discourse api_key and username:
+	
 	from tx_discourse_api import DiscourseClient
 
 	client = DiscourseClient(host, api_key, username)
 
 Create a new topic:
+
 	client.create_topic('title', 'text text text')
 
 Get all topics created:
+	
 	client.topic_by('username')
+	
 returns a list of topics in a json string.
 
 For more examples check out the test_api_calls.
