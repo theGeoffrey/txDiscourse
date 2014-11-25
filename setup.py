@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='tx_discourse',
+    name='txDiscourse',
     version='0.1.1',
     description='Discourse API wrapper for Twisted',
     classifiers=[
@@ -12,7 +12,7 @@ setup(
     license='APL2',
     url='https://github.com/theGeoffrey/tx_discourse_api',
     long_description=open('README.md').read(),
-    packages=find_packages(),
+    packages=['txDiscourse'],
     install_requires=[
         'Twisted >= 14.0.0',
         'treq==0.2.1'
