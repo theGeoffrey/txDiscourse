@@ -16,7 +16,7 @@ Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), th
 
 ### Usage:
 
-Create a new client and give it hostname, your discourse api_key and username meta.discourse.com:
+Create a new client and give it your [discourse host, api key and username](https://meta.discourse.org/t/using-discourse-api/17587):
 	
 	from txDiscoure import DiscourseClient
 
