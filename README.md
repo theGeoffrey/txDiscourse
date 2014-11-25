@@ -6,7 +6,7 @@ Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), th
 
 ##Installation:
 
-	pip install tx_discource_api
+	pip install tx_discource
 
 ###Requirements:
 
