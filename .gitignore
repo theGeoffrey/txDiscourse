@@ -10,3 +10,4 @@ config.py
 dist/*
 build/*
 ez_setup.py
+txDiscourse.egg-info/
