@@ -7,3 +7,6 @@ dump.rdb
 .DS_Store
 child.log
 config.py
+dist/*
+build/*
+ez_setup.py
