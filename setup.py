@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
 
+
 setup(
     name='txDiscourse',
-    version='0.2',
+    version='0.1.2',
     description='Discourse API wrapper for Twisted',
     classifiers=[
         'Programming Language :: Python :: 2.7',
@@ -11,7 +12,8 @@ setup(
     maintainer='Anouk Ruhaak',
     license='APL2',
     url='https://github.com/theGeoffrey/txDiscourse',
-    long_description=open('README.md').read(),
+    download_url='https://pypi.python.org/packages/2.7/t/txDiscourse/txDiscourse-0.1.2-py2.7.egg',
+    long_description='Discourse API wrapper written for Twisted, the event-driven network programming framework written in Python. Find the Readme here: https://github.com/theGeoffrey/txDiscourse',
     packages=['txDiscourse'],
     install_requires=[
         'Twisted >= 14.0.0',
