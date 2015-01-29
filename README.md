@@ -10,9 +10,17 @@ Discourse API wrapper written for [Twisted](https://twistedmatrix.com/trac/), th
 
  - Twisted > 14.0.0
  - treq==0.2.1
-
+ - service-identity==14.0.0
+ 
  For development/testing:
  - nosetests == 1.3.4
+
+### Try it out!
+Add your Discourse Hostname and Api Key and run:
+
+	python example.py
+
+this should give you the your posts.
 
 ### Usage:
 
@@ -22,6 +30,10 @@ Create a new client and give it your [discourse host, api key and username](http
 
 	client = DiscourseClient(host, api_key, username)
 
+Get latest topics:
+
+	client.latest_topics
+	
 Create a new topic:
 
 	client.create_topic('title', 'text text text')
