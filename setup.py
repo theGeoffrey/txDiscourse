@@ -17,7 +17,8 @@ setup(
     packages=['txDiscourse'],
     install_requires=[
         'Twisted >= 14.0.0',
-        'treq==0.2.1'
+        'treq==0.2.1',
+        'service-identity==14.0.0'
     ],
     email='anoukruhaak@gmail.com',
     tests_require=[
