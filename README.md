@@ -18,7 +18,7 @@ For development/testing:
 ### Try it out!
 Add your Discourse Hostname and Api Key and run:
 
-	python example.py
+	python txDiscourse/example.py
 
 this should give you your latest posts.
 
